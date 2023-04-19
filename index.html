@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Order summary card</title>
+
+  <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="custom.css" />
+</head>
+<body>
+
+  <main class="main">
+  <div class="card">
+    <div class="card-content">
+      <div class="content">
+        <div class="image is-2by1">
+          <img src="images/illustration-hero.svg" alt="Ilustration image" />
+        </div>
+        <div class="mt-4 card-body">
+          <h1 class="is-size-4 has-text-centered text-title">
+            Order Summary
+          </h1>
+          <p class="is-size-6 has-text-centered text-subtitle">
+            Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level
+          </p>
+
+          <div class="columns is-mobile is-vcentered is-centered infos">
+            <div class="column">
+              <img src="images/icon-music.svg" class="image is-48x48" alt="music icon">
+            </div>
+            <div class="column">
+              <div class="columns is-flex-direction-column is-gapless">
+                <p class="is-size-7 column">Annual Plan</p>
+                <p class="is-size-7 column">$59.99/year</p>
+              </div>
+            </div>
+            <div class="column">
+              <button class="button is-text has-text-link is-small">Change</button>
+            </div>
+          </div>
+          
+          <button class="button is-link is-small is-fullwidth has-text-weight-bold">Proceed to Payment</button>
+          <button class="button is-text is-small is-fullwidth mt-3 has-text-weight-bold">Cancel Order</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+</body>
+</html>
